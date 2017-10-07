@@ -12,5 +12,5 @@ int main() {
   scanf("%f",&nilai);
   hasil = nilai*50;
 
-  printf("Hasil setelah dikalikan 50 = %5.2f\n",hasil);
+  printf("Hasil setelah dikalikan 50 = %f\n",hasil);
 }

@@ -3,7 +3,7 @@
 //  Menerima masukan dengan format int dan char
 //  kemudian Menampilkannya kembali dengan format yang sesuai
 //  Created by kaconk on 10/7/17.
-//
+//  
 //
 #include <stdio.h>
 int main() {
