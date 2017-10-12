@@ -10,5 +10,5 @@ int main() {
   float nilai;
   printf("Masukkan Nilainya !\n");
   scanf("%f",&nilai);
-  printf("Nilainya Setelah diformat adalah : %10.2f\n",nilai);
+  printf("Nilainya Setelah diformat adalah : %8.2f\n",nilai);
 }
