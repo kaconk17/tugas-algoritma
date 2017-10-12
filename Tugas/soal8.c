@@ -11,9 +11,12 @@ int main() {
   char karakter;
   printf("Masukkan angka!\n");
   scanf("%d",&angka);
-  printf("Masukkan Huruf!\n");
+  puts ("Masukkan Huruf");
+  //printf("Masukkan Huruf!");
   scanf("%s",&karakter);
+  //karakter = getchar();
   d= angka;
   //printf("Angkanya adalah :%d dan Hurufnya adalah :%c\n", angka, karakter);
   printf ("Angkanya %d dan Hurufnya %c\n",d, karakter);
+
 }
