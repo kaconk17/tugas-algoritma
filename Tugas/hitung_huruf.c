@@ -9,11 +9,8 @@ char huruf;
 int hitung();
 
 int main() {
-  //max = &z;
-  //f= *max;
 
   printf("Masukkan kalimat \n");
-  //scanf("%s\n",text );
   gets(text);
   printf("Masukkan satu huruf yang akan dihitung\n");
   scanf("%s", &huruf );
