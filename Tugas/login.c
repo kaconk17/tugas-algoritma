@@ -22,6 +22,8 @@ struct data mhs[5];   //variable data mahasiswa
 int q=0, j=0, benar, kal;
 char lagi, nama[50];
 
+
+
 int main() {
   system ("clear");
 // sesi cek login
@@ -29,14 +31,18 @@ int main() {
   i =  cek_user();
   if (i==0) {
     printf("Selamat datang %s\n", login.user);
+
     break;
   } else {
   printf("Login salah\n");
   printf("Kesempatan anda tinggal %d kali\n", 2-stop );
   stop++;
+  lagi = 'N';
   }
 } while(stop < 3);
-
+if (stop>2) {
+  abort();
+}
 //sesi menu input data & cek nilai
 do {
 printf("Masukkan nama :");
@@ -63,6 +69,7 @@ printf("Hasilnya adalah\n");
 for (j = 0; j < kal; j++) {
   printf("Nama : %s, status : %s\n", mhs[j].name, mhs[j].status );
 }
+
 }
 
 
