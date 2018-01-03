@@ -30,7 +30,7 @@ int main() {
   do {
   i =  cek_user();
   if (i==0) {
-    printf("Selamat datang %s\n", login.user);
+    printf("============= Selamat datang %s =================\n", login.user);
 
     break;
   } else {
@@ -41,7 +41,8 @@ int main() {
   }
 } while(stop < 3);
 if (stop>2) {
-  abort();
+  //abort();
+  exit(1);
 }
 //sesi menu input data & cek nilai
 do {
